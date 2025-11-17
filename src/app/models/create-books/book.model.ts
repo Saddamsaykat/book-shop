@@ -1,6 +1,7 @@
 import { Schema, model } from "mongoose";
 import { BookInterface } from "./book.interface";
 
+
 const bookSchema = new Schema<BookInterface>({
   title: {
     type: String,
@@ -29,6 +30,14 @@ const bookSchema = new Schema<BookInterface>({
   inStock: {
     type: Boolean,
     required: true,
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now,
+  },
+  updatedAt: {
+    type: Date,
+    default: Date.now,
   },
 });
 
