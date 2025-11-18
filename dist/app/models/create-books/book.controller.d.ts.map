@@ -1,1 +1,0 @@
-{"version":3,"file":"book.controller.d.ts","sourceRoot":"","sources":["../../../../src/app/models/create-books/book.controller.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAyF5C,eAAO,MAAM,cAAc;gCAvFc,OAAO,OAAO,QAAQ;iCAgBrB,OAAO,OAAO,QAAQ;iCAgBtB,OAAO,OAAO,QAAQ;oCAiBnB,OAAO,OAAO,QAAQ;oCAqBtB,OAAO,OAAO,QAAQ;CAuBlE,CAAC"}
