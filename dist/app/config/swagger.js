@@ -38,7 +38,11 @@ const swaggerOptions = {
         },
     },
     // Fix the path pattern - use correct glob pattern
-    apis: ["./src/app/models/**/*.route.ts", "./src/app/models/**/*.route.js"],
+    apis: [
+        "./src/app/models/**/*.route.ts",
+        "./src/app/models/**/*.routes.ts",
+        "./src/app/models/**/*.route.js",
+    ],
 };
 exports.swaggerSpec = (0, swagger_jsdoc_1.default)(swaggerOptions);
 //# sourceMappingURL=swagger.js.map

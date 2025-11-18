@@ -33,7 +33,11 @@ const swaggerOptions: swaggerJsdoc.Options = {
     },
   },
   // Fix the path pattern - use correct glob pattern
-  apis: ["./src/app/models/**/*.route.ts", "./src/app/models/**/*.route.js"],
+  apis: [
+    "./src/app/models/**/*.route.ts",
+    "./src/app/models/**/*.routes.ts",
+    "./src/app/models/**/*.route.js",
+  ],
 };
 
 export const swaggerSpec = swaggerJsdoc(swaggerOptions);
