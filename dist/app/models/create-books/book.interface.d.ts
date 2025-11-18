@@ -1,0 +1,12 @@
+export interface BookInterface {
+    title: string;
+    author: string;
+    price: number;
+    category: string;
+    description: string;
+    quantity: number;
+    inStock: boolean;
+    createdAt: Date;
+    updatedAt: Date;
+}
+//# sourceMappingURL=book.interface.d.ts.map

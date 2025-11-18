@@ -2,16 +2,16 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "module": "commonjs", // ✅ Changed from "nodenext"
-    "target": "es2020", // ✅ Changed from "esnext"
+    "module": "commonjs",
+    "target": "es2020",
     "types": ["node"],
     "strict": true,
-    "verbatimModuleSyntax": false, // ✅ Changed from true
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "esModuleInterop": true, // ✅ Added this
+    "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
