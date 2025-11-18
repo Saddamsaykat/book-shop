@@ -15,7 +15,7 @@ app.use("/api/v1", routerBook);
 app.use("/api/v1", routerBookOrder);
 app.use("/api/v1", reveniueRouter);
 
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.get("/", (req, res) => {
   res.send({
     success: true,
